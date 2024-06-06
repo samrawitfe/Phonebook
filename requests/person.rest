@@ -1,0 +1,19 @@
+
+### Get persons
+GET http://localhost:3000/api/persons
+
+
+### Get person with id 3
+GET http://localhost:3000/api/persons/3
+
+### Create a new person
+POST http://localhost:3000/api/persons
+content-type: application/json
+
+{
+    "name": "Samrawit Abebe",
+    "number": "+251-9-294-468-413"
+}
+
+### delete person with id 4
+DELETE http://localhost:3000/api/persons/4
