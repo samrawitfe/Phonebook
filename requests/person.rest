@@ -11,9 +11,22 @@ POST http://localhost:3000/api/persons
 content-type: application/json
 
 {
-    "name": "Samrawit Abebe",
+    "name": "Sa",
     "number": "+251-9-294-468-413"
 }
 
+### Modify Person's number
+PUT http://localhost:3000/api/persons/66631d36b5a6102ee47e931e
+content-type: application/json
+
+{
+    "name": "Sa",
+    "number": "+420-9-94-468-413"
+}
+
 ### delete person with id 4
-DELETE http://localhost:3000/api/persons/4
+DELETE http://localhost:3000/api/persons/66631d4703fc1091b2142bd5
+
+
+
+
